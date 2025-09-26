@@ -34,5 +34,21 @@
                 <option value="1.9">Meget høj aktivitet</option>
             </select>
 
-            <label
+            <label for="goal">Mål:</label>
+            <select id="goal">
+                <option value="0">Hold vægt</option>
+                <option value="-500">Tabe 0,5 kg/uge</option>
+                <option value="-1000">Tabe 1 kg/uge</option>
+                <option value="500">Tag på 0,5 kg/uge</option>
+                <option value="1000">Tag på 1 kg/uge</option>
+            </select>
 
+            <button type="button" onclick="calculateCalories()">Beregn</button>
+        </form>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
