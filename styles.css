@@ -6,7 +6,7 @@ body {
 }
 
 .calculator {
-    width: 300px;
+    width: 320px;
     margin: 50px auto;
     padding: 20px;
     background-color: #fff;
@@ -49,4 +49,3 @@ button:hover {
     font-size: 1.2em;
     color: #333;
 }
-Add styles.cs
